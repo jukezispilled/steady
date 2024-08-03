@@ -175,7 +175,7 @@ function TradingSimulator() {
   return (
     <div className="bg-white p-6 rounded-lg">
       <h2 className="text-3xl font-bold mb-1">SOL/USD</h2>
-      <p className='text-[11px] md:text-base'>CA: coming soon...</p>
+      <p className='text-[11px] md:text-base'>CA: DuF3LjDN7uhrGmi9cAHfMX28sTe4CqG3mvemntF2pump</p>
       <div className="mb-4">
         <span className="text-xl font-semibold">Current Price: ${price.toFixed(2)}</span>
       </div>
