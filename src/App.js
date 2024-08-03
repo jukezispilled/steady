@@ -4,7 +4,7 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App bg-black min-h-screen w-screen flex flex-col bg-cover bg-center" style={{ backgroundImage: 'url("/bg1.png")' }}>
+    <div className="App bg-black min-h-screen w-screen flex flex-col bg-cover bg-center font-custom" style={{ backgroundImage: 'url("/bg1.png")' }}>
       <MarketTicker />
       <div className="flex-grow flex justify-center items-center">
         <TradingSimulator />
@@ -176,7 +176,7 @@ function TradingSimulator() {
   return (
     <div className="bg-white p-6 rounded-lg">
       <h2 className="text-3xl font-bold mb-1">SOL/USD</h2>
-      <p>CA: coming soon...</p>
+      <p className='text-[11px] md:text-base'>CA: coming soon...</p>
       <div className="mb-4">
         <span className="text-xl font-semibold">Current Price: ${price.toFixed(2)}</span>
       </div>
