@@ -10,7 +10,7 @@ function App() {
         <TradingSimulator />
       </div>
       <div className='absolute bottom-3 right-3 flex space-x-1 items-center z-[50]'>
-        <a href="https://x.com/" className='transition ease-in-out duration-150'>
+        <a href="https://x.com/besteadylads" className='transition ease-in-out duration-150'>
           <img src="Xlogo.jpg" className='size-14 rounded-xl'></img>
         </a>
         <a href="https://t.me/" className='transition ease-in-out duration-150'>
@@ -31,7 +31,7 @@ function MarketTicker() {
     { symbol: 'AMZN', price: 3300.50, change: '-4.7%' },
     { symbol: 'BTC', price: 42000, change: '-5.2%' },
     { symbol: 'ETH', price: 3100, change: '-9.1%' },
-    { symbol: 'SOL', price: 100, change: '-10.1%' },
+    { symbol: 'SOL', price: 150, change: '-10.1%' },
   ];
 
   const [stocks, setStocks] = useState(initialStocks);
