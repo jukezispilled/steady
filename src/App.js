@@ -194,11 +194,6 @@ function TradingSimulator() {
           Sell
         </button>
       </div>
-      {lastAction && (
-        <p className="text-center mb-4">
-          Last action: <span className="font-bold">{lastAction.toUpperCase()}</span>
-        </p>
-      )}
       <div ref={chartContainerRef} className="w-64 md:w-80 h-64"></div>
     </div>
   );
